@@ -1,0 +1,56 @@
+.datе-picker-wrapper {
+    padding: 1rem;
+    max-width: 600px;
+}
+.conatiner{
+    display: inline-block;
+    box-shadow: 10px 10px;
+
+}
+.form{
+    /* border: 1px solid gray; */
+    margin: 26px;
+    box-shadow: (0 0 0 / 16%) 0px 10px 36px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+    background-color: lightskyblue;
+    padding: 50px;
+}
+.wrapper {
+    overflow: hidden;
+    position: relative;
+     /* real length of dropdown */
+    width: 49%;
+
+  }
+  
+  .wrapper:after {
+    content: "▼";
+    font-size: 0.8rem;
+    pointer-events: none; /* ▼ click triggers dropdown */
+    position: absolute;
+    right: 1.2rem;
+    top: 0.3rem;
+    z-index: 1;
+  }
+  
+  select {
+    /* remove default caret */
+    -webkit-appearance: none; /* webkit browsers */
+    -moz-appearance: none; /* firefox */
+    appearance: none; /* modern browsers */
+    width: 100%;
+  }
+  
+  select::-ms-expand {
+    display: none; /* remove default caret for ie */
+  }
+
+  h2{
+      text-align: center;
+  }
+    .btn-secondary{
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 10%;
+      }
+  
+  
